@@ -14,7 +14,7 @@ public class LeapYearCalculator {
 		tahun = input.nextInt ();
 		
 		String evenOdd = (bulan % 2 == 0) ? "even" : "odd"; 
-		System.out.println("Bulan ke-"bulan + " adalah " + evenOdd);
+		System.out.println("Bulan ke-" + bulan + " adalah " + evenOdd);
 		
 		switch (bulan) {
 		case 1 :
